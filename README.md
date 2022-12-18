@@ -31,7 +31,7 @@ services:
 Edit : /etc/systemd/resolved.conf
 ```bash
 [Resolve]
-DNS=127.0.0.1
+DNS=1.1.1.1
 DNSStubListener=no
 ```
 ###
@@ -41,6 +41,7 @@ ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ###
 ###
 Restart systemd-resolved:
+####
 systemctl restart systemd-resolved
 ###
 optmasi dns adguard
