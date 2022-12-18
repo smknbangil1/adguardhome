@@ -29,10 +29,11 @@ services:
 ```
 ###
 Edit : /etc/systemd/resolved.conf
-###
+```bash
 [Resolve]
 DNS=127.0.0.1
 DNSStubListener=no
+```
 ###
 mv /etc/resolv.conf /etc/resolv.conf.ori
 ###
