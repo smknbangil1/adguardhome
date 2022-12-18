@@ -47,3 +47,13 @@ systemctl restart systemd-resolved
 optmasi dns adguard
 https://cln.io/blog/adguard-parallel-requests/
 ###
+```code
+https://security.cloudflare-dns.com/dns-query
+tls://security.cloudflare-dns.com
+https://dns.google/dns-query
+tls://dns.google
+https://dns.quad9.net/dns-query
+tls://dns.quad9.net
+https://dns.adguard.com/dns-query
+tls://dns.adguard.com
+```
