@@ -57,3 +57,6 @@ tls://dns.quad9.net
 https://dns.adguard.com/dns-query
 tls://dns.adguard.com
 ```
+###
+make doh https://ae3.ch/adguard-home-docker-with-dns-over-https-and-traefik
+###
